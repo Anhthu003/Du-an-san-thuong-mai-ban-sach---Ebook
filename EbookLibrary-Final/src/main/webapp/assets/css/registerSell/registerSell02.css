@@ -1,0 +1,262 @@
+
+body {
+    background-color: whitesmoke;
+}
+
+
+/* The navigation bar */
+.nav {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    z-index: 999999;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Links inside the navbar */
+.nav a {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    line-height: 65px;
+}
+
+.nav .logo img {
+    position: absolute;
+    margin-left: 100px;
+    top: 10px;
+}
+
+/*LOGO  */
+.logo1{
+    margin-left: 160px;
+}
+/* AVATAR NAV */
+.container-avatar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.container-avatar img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 0;
+    border-radius: 50%;
+
+}
+
+.container-avatar .username {
+    margin-bottom: 0;
+}
+
+.container-avatar:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+
+.container {
+    background-color: white;
+    margin: 90px 100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 2px;
+}
+
+.container-steps {
+    display: flex;
+    margin: 0 24px;
+    max-width: 1216px;
+    min-width: 944px;
+    justify-content: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.step1,
+.step2,
+.step3,
+.step4,
+.step5 {
+    position: relative;
+    margin: 48px 0 28px;
+    align-items: center;
+}
+
+.step1 .step-dot,
+.step2 .step-dot {
+    display: inline-block;
+    text-align: center;
+    margin-left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.step3 .step-dot,
+.step4 .step-dot,
+.step5 .step-dot {
+    display: inline-block;
+    text-align: center;
+    margin-left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.step1 .step-content,
+.step2 .step-content,
+.step3 .step-content,
+.step4 .step-content,
+.step5 .step-content {
+    text-align: center;
+    margin-top: 12px;
+    padding-top: 4px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.step1 .step-tail,
+.step2 .step-tail,
+.step3 .step-tail,
+.step4 .step-tail,
+.step5 .step-tail {
+    width: 190px;
+    padding-left: 25px;
+}
+
+.step1 .tail {
+    position: absolute;
+    width: 150px;
+    margin-left: 50%;
+    background-color: green;
+    height: 2px;
+    top: 18px;}
+
+.step2 .tail,
+.step3 .tail,
+.step4 .tail,
+.step5 .tail {
+    position: absolute;
+    width: 150px;
+    margin-left: 50%;
+    background-color: gray;
+    height: 2px;
+    top: 18px;
+}
+
+.tail-end {
+    height: 0px;
+}
+
+/* FORM */
+.container-form {
+    margin: 0px 150px 0px 150px;
+    padding-top: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* THÔNG BÁO */
+.thongbao {
+    display: flex;
+}
+
+.container-thongbao {
+    align-items: center;
+    background-color: rgba(209, 232, 209, 0.643);
+    border: 1px solid green;
+    padding: 5px 10px;
+    margin-bottom: 40px;
+}
+
+.thongbao-icon {
+    width: 20px;
+    margin-right: 10px;
+    line-height: 16px;
+}
+
+.thongbao-icon img {
+    width: 16px;
+    height: 16px;
+}
+
+.thongbao-content {
+    font-size: 14px;
+    color: rgb(84, 84, 84);
+}
+
+
+/* RADIO */
+.container-radio {
+    width: 100%;
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.radios {
+    margin-bottom: 25px;
+    font-size: 12px;
+}
+
+.form-radio label {
+    width: 204px;
+    font-size: 12px;
+}
+
+.form-radio {
+    display: inline-flex;
+}
+
+.radios {
+    display: flex;
+    justify-content: space-around;
+}
+
+.radios div {
+    padding-right: 70px;
+}
+
+/* ĐIỀN THÔNG TIN FORM */
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0px;
+    align-items: end;
+}
+
+.form label {
+    width: 250px;
+    font-size: 12px;
+}
+
+.form input {
+    font-size: 12px;
+}
+
+/* BUTTON */
+.form-btn {
+    display: flex;
+    padding: 10px 0px 20px 0;
+    justify-content: space-between;
+}
+
+.form-btn .btn-quaylai {
+    border: 1px solid gray;
+    font-size: 10px;
+}
+
+.form-btn .btn-tieptheo {
+    color: white;
+    font-size: 10px;
+}

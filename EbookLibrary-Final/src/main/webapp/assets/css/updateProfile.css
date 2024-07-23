@@ -1,0 +1,151 @@
+
+
+
+
+
+.dropdown-itemMenu{
+text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+.activeMenu1{
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.menuNgangNe{
+    position: fixed;
+    /* overflow-y: auto; */
+    z-index: 999; 
+    background-color: white;
+}
+
+.vertical-menu {
+    width: 200px;
+    position: fixed;
+    overflow-y: hidden;  
+    margin-left: 20px;   
+}
+
+.vertical-menu .text-nav {
+    color: black;
+    padding: 10px; 
+    display: block; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+.text-nav:hover {
+    color: green;
+    font-weight: bold;
+}
+
+.activeMenu2 {
+    font-weight: bold;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    padding: 10px; 
+    display: block; 
+    text-decoration: none; 
+}
+
+.menu-item {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    flex-direction: column;
+
+
+}
+
+.submenu a {
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.submenu .activeMenuCon {
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.text-subnav:hover {
+    color: green;
+}
+
+.menu-item.open .submenu {
+    display: flex;
+}
+
+.nav-item button {
+    color: white;
+    background-color: green;
+}
+
+.nav-link {
+    color: white;
+    background-color: green;
+}
+
+.nav-linkMenu {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+main aside>article>.title>p {
+    font-size: 1.5rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+main aside>article>.title {
+    margin-bottom: 20px;
+}
+
+main aside>article .body .form-group {
+    margin-bottom: 20px;
+}
+
+main aside>aside .showImgBia>img {
+    position: relative;
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+}
+main aside aside .showImgAvt>img{
+    position: absolute;
+    top: 90px;
+    right: 320px;
+    border-radius: 50%;
+    border: 1px solid rgb(202, 201, 201);
+    width: 100px;
+    height: 100px;
+}main aside aside .title-TenShop{
+    position: absolute;
+    top: 110px;
+    left: 81%;
+}
+main aside aside .title-TenShop>p{
+font-size: 1.6rem;
+color: white;
+font-weight: bold;
+}
+main aside>aside .uploadImg{
+    margin: 30px 10px;
+}

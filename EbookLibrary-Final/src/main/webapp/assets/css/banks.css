@@ -1,0 +1,191 @@
+
+.navbar-brand img {
+  position: absolute;
+  left: 30px;
+  top: 8px;
+}
+.btnSeacrh {
+  border: solid 1px white;
+  border-radius: 10px;
+  width: 350px;
+  height: 40px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.sunHeader {
+  position: absolute;
+  right: -550px;
+  top: -10px;
+}
+.sunMenu {
+  margin-top: 200px;
+  margin-left: 330px;
+}
+.sunMenu {
+  padding: 10px;
+}
+.iconMenu {
+  margin-right: 5px;
+}
+.dropdown-itemMenu {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+.activeMenu1 {
+  color: white;
+  font-weight: bold;
+  background-color: green;
+  border-radius: 5px;
+}
+
+
+.col-9 {
+  margin-left: -19px;
+}
+.vertical-menu {
+  width: 200px;
+  position: fixed;
+  overflow-y: hidden;
+  margin-left: 20px;
+}
+
+.vertical-menu .text-nav {
+  color: black;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.text-nav:hover {
+  color: green;
+  font-weight: bold;
+}
+
+.activeMenu2 {
+  font-weight: bold;
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  flex-direction: column;
+}
+
+.submenu a {
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.submenu .activeMenuCon {
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.text-subnav:hover {
+  color: green;
+}
+
+.menu-item.open .submenu {
+  display: flex;
+}
+
+.nav-item button {
+  color: white;
+  background-color: green;
+}
+
+.nav-link {
+  color: white;
+  background-color: green;
+}
+
+.nav-linkMenu {
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.tenNguoiBan {
+  float: left;
+  /* font-weight: bold; */
+  margin-top: 5px;
+  font-size: 20px;
+}
+.noiDungPhai {
+  margin-left: 1010px;
+}
+.trangThai {
+  font-size: 15px;
+}
+.danhGia {
+  font-weight: 500;
+  font-size: 17px;
+}
+.modal-header,
+.modal-footer {
+  border: none;
+}
+.modal-header {
+  padding-top: 30px;
+}
+.Page1 {
+  padding: 10px;
+}
+.Page2 {
+  padding: 10px;
+}
+.d-none {
+  display: none;
+}
+
+.card-custom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.card-body {
+  flex: 1;
+  margin-right: 10px;
+}
+.card-footer {
+  border: none;
+  flex: 1;
+  text-align: right;
+  background-color: whitesmoke;
+}
+.soTK {
+  margin-left: 20px;
+}
+.card {
+  width: 100%;
+  background-color: whitesmoke;
+  border: none;
+  margin-bottom: 20px;
+}

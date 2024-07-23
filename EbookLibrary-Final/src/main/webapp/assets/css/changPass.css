@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+main button {
+	width: 100%;
+	height: 40px;
+	border-radius: 40px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: 600;
+	transition: all 0.4s ease;
+}
+
+.inputbox input {
+	width: 100%;
+	height: 60px;
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 1rem;
+	padding: 20px 35px 0px 5px;
+	color: #fff;
+}
+
+.inputbox ion-icon {
+	position: absolute;
+	right: 8px;
+	color: #401111;
+	font-size: 1.2rem;
+	top: 20px;
+}
+
+h1 {
+	font-size: 2rem;
+	color: #fff;
+	text-align: center;
+}
+
+.inputbox {
+	position: relative;
+	margin: 30px 0;
+	max-width: 310px;
+	border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+	position: absolute;
+	top: 20%;
+	left: 5px;
+	transform: translateY(-50%);
+	color: #fff;
+	font-size: 1rem;
+	pointer-events: none;
+	transition: all 0.5s ease-in-out;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-image: url("/assets/img/background/changpass.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.body {
+	position: relative;
+	max-width: 400px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	backdrop-filter: blur(55px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem 3rem;
+}

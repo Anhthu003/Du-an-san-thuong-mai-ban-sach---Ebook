@@ -1,0 +1,184 @@
+@charset "UTF-8";
+main{
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+.Panel1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Lọc */
+article{
+    margin: 0px;
+    padding: 0px;
+}
+article .find {
+    background-color: rgb(248, 248, 248);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+article .find-title {
+    font-weight: bold;
+}
+ article .find .form-check, article .find .form-group{
+    margin: 10px 5px;
+ }
+
+aside .arrange {
+    background-color: rgb(248, 248, 248);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+aside .arrange button {
+    background-color: white;
+    border: 1px solid green;
+    /* box-shadow: 0px 10px 20px  green inset; */
+    border-radius: 5px;
+    color: black;
+    padding: 5px 20px;
+    margin-left: 10px;
+}
+
+aside .arrange .numberPage {
+    display: flex;
+    float: right;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+
+}
+
+aside .arrange button:hover {
+    color: white;
+    background-color: green;
+}
+
+.textOranger {
+    color: orangered;
+}
+
+.card {
+    background-color: rgb(248, 248, 248);
+    border: none;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.card .card-body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.card .card-body>.star {
+    margin: 10px 0px;
+}
+
+.card .row {
+    padding-left: 20px;
+}
+
+.card .heard {
+    padding: 20px 10px;
+    font-size: 1.8rem;
+    color: red;
+}
+
+.SP .card-title {
+    margin: 20px 0px;
+}
+
+.card img {
+    height: 250px;
+}
+
+.card:hover {
+    background-color: white;
+    box-shadow: 0px 5px 8px rgb(203, 203, 203);
+}
+
+
+/* 
+/* Thiết lập ảnh mặc định */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 300px; /* hoặc bất kỳ chiều cao nào bạn muốn */
+    overflow: hidden;
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s; /* Áp dụng hiệu ứng chuyển đổi */
+}
+
+/* Hiển thị ảnh đầu tiên */
+.image-container .default-img{
+    opacity: 1;
+}
+
+/* Hiển thị ảnh đầu tiên */
+.card:hover .image-container img::nth-child(1) {
+    opacity: 1;
+    animation: slideshow 2s infinite; /* Áp dụng animation cho ảnh đầu tiên */
+}
+
+/* Chuyển đổi hiển thị của ảnh */
+@keyframes slideshow {
+    0%, 50% {
+        opacity: 1;
+    }
+    55%, 100% {
+        opacity: 0;
+    }
+}
+
+/* Hiển thị ảnh thứ hai */
+.card:hover .image-container img:nth-child(2) {
+    opacity: 0;
+    animation: slideshow2 2s infinite; /* Áp dụng animation cho ảnh thứ hai */
+}
+
+/* Chuyển đổi hiển thị của ảnh thứ hai */
+@keyframes slideshow2 {
+    0%, 50% {
+        opacity: 0;
+    }
+    55%, 100% {
+        opacity: 1;
+    }
+}
+
+/* Hiển thị ảnh thứ ba */
+.card:hover .image-container img:nth-child(3) {
+    opacity: 0;
+    animation: slideshow2 3s infinite; /* Áp dụng animation cho ảnh thứ hai */
+}
+
+/* Hiển thị ảnh cuối cùng khi hover */
+.card:hover .image-container img:last-child {
+    opacity: 0;
+    animation: slideshow2 5s forwards;
+}
+
+/* Đảm bảo ảnh cuối cùng vẫn hiển thị sau khi hover */
+.card .image-container img:last-child.show {
+    opacity: 1;
+}
+
+
+
+.btn-toolbar{
+    margin: 30px 0px;
+}

@@ -1,0 +1,468 @@
+.container-edit {
+	background-color: #F7F8F7;
+}
+
+.navbar-brand img {
+	position: absolute;
+	left: 30px;
+	top: 8px;
+}
+
+.btnSeacrh {
+	border: solid 1px white;
+	border-radius: 10px;
+	width: 350px;
+	height: 40px;
+	background-color: green;
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.btnSeacrh:hover {
+	background-color: rgb(3, 104, 3);
+}
+
+.sunHeader {
+	position: absolute;
+	right: -550px;
+	top: -10px;
+}
+
+.sunMenu {
+	margin-top: 200px;
+	margin-left: 330px;
+}
+
+.sunMenu {
+	padding: 10px;
+}
+
+.iconMenu {
+	margin-right: 5px;
+}
+
+.dropdown-itemMenu {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	width: 100%;
+}
+
+.activeMenu1 {
+	color: white;
+	font-weight: bold;
+	background-color: green;
+	border-radius: 5px;
+}
+
+.vertical-menu {
+	width: 200px;
+	position: fixed;
+	overflow-y: hidden;
+	margin-left: 20px;
+}
+
+.vertical-menu .text-nav {
+	color: black;
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.text-nav:hover {
+	color: green;
+	font-weight: bold;
+}
+
+.activeMenu2 {
+	font-weight: bold;
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+}
+
+.menu-item {
+	position: relative;
+}
+
+.submenu {
+	display: none;
+	flex-direction: column;
+}
+
+.submenu a {
+	padding-left: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.submenu .activeMenuCon {
+	padding-left: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	background-color: green;
+	border-radius: 5px;
+}
+
+.text-subnav:hover {
+	color: green;
+}
+
+.menu-item.open .submenu {
+	display: flex;
+}
+
+.nav-item button {
+	color: white;
+	background-color: green;
+}
+
+.nav-link {
+	color: white;
+	background-color: green;
+}
+
+.nav-linkMenu {
+	padding: 20px;
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+}
+
+.col-9 {
+	margin-left: -19px;
+}
+
+.nav-linkMenu.activeMenu3 {
+	text-decoration: underline 2px green;
+	color: green;
+}
+
+.card {
+	border: none;
+	/* margin-top: 20px; */
+	/*     background-color: rgb(248, 248, 248); */
+	margin-bottom: 20px;
+}
+
+.card-header {
+	border: none;
+	margin-left: 20px;
+	background-color: white;
+}
+
+.card-footer {
+	border: none;
+	background-color: rgb(248, 248, 248);
+}
+
+.tenNguoiBan {
+	float: left;
+	/* font-weight: bold; */
+	font-size: 17px;
+}
+
+.noiDungPhai-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.trangThai-cont, .trangthai2-cont {
+	padding-left: 10px;
+}
+
+.trangThai {
+	font-size: 15px;
+}
+
+.danhGia {
+	color: red;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.circle-container {
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+
+.circle-container {
+	position: relative;
+	width: 300px; /* Độ dài của đường thẳng */
+	height: 50px; /* Độ rộng của đường tròn */
+	background-color: lightgray; /* Màu nền */
+}
+
+.circle-container {
+	background-color: white;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+.circle {
+	position: absolute;
+	width: 70px; /* Đường kính của đường tròn */
+	height: 70px; /* Đường kính của đường tròn */
+	background-color: white; /* Màu của đường tròn */
+	border-radius: 50%; /* Biến đường tròn thành hình tròn */
+}
+
+.circle img {
+	margin: 12px;
+}
+
+.circle:nth-child(1) {
+	left: 0;
+	border: 5px solid #16B302;
+}
+
+.circle:nth-child(2) {
+	left: 200px;
+	border: 5px solid #16B302;
+}
+
+.circle:nth-child(3) {
+	left: 400px;
+	border: 5px solid #16B302;
+}
+
+.circle:nth-child(4) {
+	left: 600px;
+	border: 5px solid #16B302;
+}
+
+.circle:nth-child(5) {
+	left: 800px;
+	border: 5px solid #16B302;
+}
+
+.menuNgangNe {
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	display: flex;
+}
+
+.text {
+	/* position: absolute; */
+	width: 140px;
+	margin-left: -38px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.ngay {
+	font-size: 12px;
+}
+
+.container-muaBanh {
+	margin-top: 20px;
+}
+
+.cardMuaBanh {
+	margin: 3px;
+}
+
+.cardMuaBanh button {
+	width: 200px;
+	margin: -10px;
+	float: right;
+	margin-right: 5px;
+}
+
+.cardMuaBanh button {
+	width: 200px;
+	margin: -10px;
+	float: right;
+	margin-right: 5px;
+}
+
+.cardMuaBanh button {
+	width: 200px;
+	margin: -10px;
+	float: right;
+	margin-right: 5px;
+}
+
+.container-vanChuyen {
+	margin-top: 20px;
+}
+
+.card-vanChuyen {
+	margin: 3px;
+	background-color: white;
+}
+
+.title-diaChi {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.soDienThoai, .diaChi {
+	font-size: 13px;
+	color: gray;
+	margin-top: -10px;
+}
+
+.table-vanChuyen, tr, td {
+	border: none;
+	color: rgb(158, 157, 157);
+	font-size: 13px;
+}
+
+.trangThai-vanChuyen {
+	font-weight: bold;
+}
+
+/* Thông tin sách */
+.list-book {
+	margin-top: 11px;
+}
+
+.book {
+	display: flex;
+}
+
+.book img {
+	width: auto;
+	height: 150px;
+}
+
+.book img:hover {
+	cursor: pointer;
+	opacity: .6;
+}
+
+.book-content {
+	margin-left: 20px;
+}
+
+.book-content h2 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.book-content a {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.book-content a:hover {
+	color: green;
+}
+
+.content {
+	font-size: 15px;
+	color: gray;
+	text-align: justify;
+	height: 40px;
+}
+
+.info {
+	display: flex;
+	margin-top: 20px;
+}
+
+.info-book {
+	display: block;
+	margin: 0;
+}
+
+.info-book p {
+	margin-bottom: 5px;
+}
+
+.info-book p {
+	margin-right: 10px;
+}
+
+.gia {
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.soLuong {
+	font-weight: bold;
+}
+
+.chucNang {
+	float: right;
+}
+
+.cardProduct {
+	border: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	box-shadow: 0 0 4px 1px whitesmoke;
+}
+
+.cardProduct-header {
+	border: none;
+	margin-top: 10px;
+}
+
+.cardProduct-body {
+	margin-top: -30px;
+}
+
+.trangThai {
+	color: green;
+	font-size: 15px;
+}
+
+.danhGia {
+	color: red;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.container-Gia {
+	margin-top: 20px;
+	box-shadow: 0 0 4px 1px whitesmoke;
+}
+
+.cardGia {
+	margin: 0px;
+}
+
+.text1 {
+	border-right: 2px solid white;
+}
+
+.text1, .text2 {
+	text-align: right;
+	font-size: 13px;
+}
+
+.thanhTien {
+	color: red;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.button-cont{
+	background-color: white;
+	display: flex;
+	justify-content: end;
+	margin-top: 20px;
+}
+
+.button-edit{
+	padding-left: 10px;
+}

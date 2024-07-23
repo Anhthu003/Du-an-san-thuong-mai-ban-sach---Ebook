@@ -1,0 +1,57 @@
+@charset "UTF-8";
+main {
+    padding-top: 300px;
+    /* background-color: white; */
+}
+
+#productContent,
+#product {
+    padding: 20px;
+    background-color: white; 
+}
+.productLeft{
+margin: 0px;
+
+}
+.productRight>ul li {
+    margin-right: 10px;
+}
+.productRight>.title{
+    padding-top: 5px;
+}
+.item{
+    float: left;
+    margin-right: 50px;
+}
+#panel2,#panel3{
+    margin-bottom: 30px;
+}
+#productContent button{
+color: black;
+}
+#myTabContent{
+    padding: 20px;
+}
+#profile-tab-pane .col-md-3{
+    margin: 20px 0 0 0;
+}
+#profile-tab-pane a>span{
+    color: rgb(84, 84, 84);
+}
+#profile-tab-pane a>span:hover{
+    color: green;
+}
+.cmt{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.avatar{
+    float: left;
+    margin-right: 10px;
+}
+.content{
+    margin-left: 5%;
+}
+.cmt>.likeReply{
+    float: right;
+}

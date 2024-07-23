@@ -1,0 +1,176 @@
+@charset "UTF-8";
+.container-manage-products {
+    background-color: rgba(241, 245, 249, 0.678);
+    padding-bottom: 50px;
+}
+
+.container-products {
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color: white;
+}
+
+.title-manage-products {
+    padding-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 30px;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: rgba(75, 77, 80, 0.75);
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: #000;
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: var(--bs-nav-tabs-link-active-color);
+    background-color: var(--bs-nav-tabs-link-active-bg);
+    border-color: white;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: var(--bs-nav-tabs-link-active-color);
+    background-color: var(--bs-nav-tabs-link-active-bg);
+    border-color: white;
+    border-bottom: 3px solid green;
+}
+
+/* TẤT CẢ SẢN PHẨM  */
+/* Button */
+.button-active {
+    display: flex;
+    margin: 30px 20px;
+    justify-content: space-around;
+}
+
+#product-home {}
+
+.button-tim-kiem {
+    width: 1300px;
+}
+
+.button-tim-kiem button {
+    font-size: 15px !important;
+}
+
+.button-them button {
+    width: 100px;
+    font-size: 15px;
+    padding: 11px 5px;
+}
+
+/* Table */
+.container-table {
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    padding: 0 20px;
+}
+
+.col-img {
+    width: 150px;
+    padding: 10px 35px !important;
+}
+
+.col-img img {
+    width: 80px;
+    height: 80px;
+}
+
+.col-edit {
+    width: 160px;
+    padding-top: 35px !important;
+    padding-bottom: 35px !important;
+    line-height: 30px !important;
+}
+
+.col-edit-button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col-edit .icon-xoa {
+    color: red;
+}
+
+.col-edit button:hover .icon-xoa,
+.col-edit button:hover .icon-chinh-sua {
+    color: white;
+}
+
+.col-info {
+    padding-top: 35px !important;
+    padding-bottom: 35px !important;
+    line-height: 30px !important;
+}
+
+
+/* LOẠI SẢN PHẨM */
+
+/* Table */
+.LSP-col-info {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    line-height: 0px !important;
+}
+
+/* click row table */
+.clickable-row {
+    cursor: pointer;
+
+}
+/* Button */
+.LSP-col-edit {
+    width: 160px;
+}
+
+.LSP-button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.LSP-col-edit .icon-xoa {
+    color: red;
+}
+
+.LSP-col-edit btn-chinh-sua,
+.LSP-col-edit btn-xoa {
+    width: 50px;
+}
+
+.LSP-col-edit button:hover .icon-xoa,
+.LSP-col-edit button:hover .icon-chinh-sua {
+    color: white;
+}
+
+/* Modal */
+.row-them-loaiSP {
+    margin: 10px 0px;
+}
+
+.row-them-loaiSP label {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,329 @@
+.navbar-brand img {
+	position: absolute;
+	left: 30px;
+	top: 8px;
+}
+
+.btnSeacrh {
+	border: solid 1px white;
+	border-radius: 10px;
+	width: 350px;
+	height: 40px;
+	background-color: green;
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.btnSeacrh:hover {
+	background-color: rgb(3, 104, 3);
+}
+
+.sunHeader {
+	position: absolute;
+	right: -550px;
+	top: -10px;
+}
+
+.sunMenu {
+	margin-top: 200px;
+	margin-left: 330px;
+}
+
+.sunMenu {
+	padding: 10px;
+}
+
+.iconMenu {
+	margin-right: 5px;
+}
+
+.dropdown-itemMenu {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	width: 100%;
+}
+
+.activeMenu1 {
+	color: white;
+	font-weight: bold;
+	background-color: green;
+	border-radius: 5px;
+}
+
+.vertical-menu {
+	width: 200px;
+	position: fixed;
+	overflow-y: hidden;
+	margin-left: 20px;
+}
+
+.vertical-menu .text-nav {
+	color: black;
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.text-nav:hover {
+	color: green;
+	font-weight: bold;
+}
+
+.activeMenu2 {
+	font-weight: bold;
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+}
+
+.menu-item {
+	position: relative;
+}
+
+.submenu {
+	display: none;
+	flex-direction: column;
+}
+
+.submenu a {
+	padding-left: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.submenu .activeMenuCon {
+	padding-left: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	background-color: green;
+	border-radius: 5px;
+}
+
+.text-subnav:hover {
+	color: green;
+}
+
+.menu-item.open .submenu {
+	display: flex;
+}
+
+.container-row {
+	background-color: whitesmoke;
+}
+
+.container-row .row {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav-item button {
+	color: white;
+	background-color: green;
+}
+
+.nav-link {
+	color: white;
+	background-color: green;
+}
+
+.nav-linkMenu {
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+}
+
+.col-9 {
+	margin-left: -19px;
+}
+
+.nav-linkMenu:hover {
+	color: green;
+}
+
+.nav-linkMenu.activeMenu3 {
+	color: green;
+}
+
+/*  */
+.container-card {
+	min-height: 550px;
+}
+
+.card {
+	border: none;
+	margin-top: 20px;
+	background-color: rgb(248, 248, 248);
+	margin-bottom: 20px;
+}
+
+.card-header {
+	border: none;
+	background-color: rgb(248, 248, 248);
+}
+
+.card-footer {
+	border: none;
+	background-color: rgb(248, 248, 248);
+}
+
+
+.thongtin-nguoiban{
+	display: flex;
+	align-items: center;
+}
+.anh-nguoiban {
+	float: left;
+	font-weight: bold;
+	font-size: 17px;
+	border-radius: 50%;
+	border: 1px silver solid;
+	padding: 5px;
+	margin-right: 20px;
+	background: 0 0 0 0.0;
+}
+.anh-nguoiban button {
+	width: 120px;
+	font-size: 14px;
+	/* height: 30px; */
+}
+
+.noiDungPhai {
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.trangThai {
+	color: green;
+	font-size: 15px;
+}
+
+.danhGia {
+	color: red;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+/* Thông tin sách */
+.list-book {
+	margin-top: 11px;
+}
+
+.book {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.book img {
+	width: auto;
+	height: 150px;
+}
+
+.book img:hover {
+	cursor: pointer;
+	opacity: .6;
+}
+
+.book-content {
+	margin-left: 20px;
+}
+
+.book-content h2 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.book-content a {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.book-content a:hover {
+	color: green;
+}
+
+.content {
+	font-size: 15px;
+	color: gray;
+	text-align: justify;
+	height: 40px;
+}
+
+.info {
+	display: flex;
+	margin-top: 20px;
+}
+
+.info-book {
+	display: block;
+	margin: 0;
+}
+
+.info-book p {
+	margin-bottom: 5px;
+}
+
+.info-book p {
+	margin-right: 10px;
+}
+
+.gia {
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.soLuong {
+	/* 	font-weight: bold; */
+	
+}
+
+.chucNang {
+	float: right;
+}
+
+.chucNang .thanhTien {
+	width: 99%;
+	display: flex;
+	justify-content: flex-end;
+	float: initial;
+}
+
+.thanhTien  span {
+	margin: 10px;
+}
+
+.hoanthanh {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 15px;
+}
+
+.hoanthanh div {
+	margin-left: 10px;
+}
+
+.button-edit {
+	display: flex;
+	width: 500px;
+	justify-content: end;
+}
+
+.button-edit button {
+	margin: 10px;
+}

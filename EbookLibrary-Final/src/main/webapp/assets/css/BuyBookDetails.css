@@ -1,0 +1,368 @@
+@charset "UTF-8";
+main {
+    font-family: Helvetica, Arial, sans-serif;
+    /* background-color: rgb(244, 243, 243); */
+}
+.panel1,.panel2,.panel3,.panel4{
+    margin: 0px;
+    padding: 20px;
+    background-color: white;
+}
+.panel1>article .bigImg>img {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.panel1 .smallImg {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.panel1>article .smallImg>img {
+    margin-right: 6px;
+    width: 60px;
+    height: 90px;
+    border-radius: 5px;
+}
+.panel1 .ActiveSlide{
+    border: 2px solid orangered;
+    border-radius: 5px;
+
+}
+.panel1>article .smallImg>img:hover {
+    border: 1px solid orangered;
+}
+
+.panel1 aside .title>p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.panel1 aside .bodyPanle1 p {
+    color: gray;
+}
+
+.panel1 aside .bodyPanle2 {
+    margin-bottom: 50px;
+}
+
+.panel1 aside .bodyPanle2>p {
+    font-weight: bold;
+    font-size: 2rem;
+    color: orangered;
+    /* padding: 10px 20px; */
+
+}
+
+.panel1 aside .bodyPanle3>.title,
+.bodyPanle4>.title {
+    width: 130px;
+    font-size: 1.2rem;
+}
+
+.panel1 .checked {
+    margin: 0px;
+    color: white;
+    background-color: green;
+    width: 120px;
+    height: 35px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.panel1 aside .bodyPanle4 {
+    margin: 30px 0px;
+}
+
+.panel1 aside .bodyPanle4>input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 5px;
+}
+.panel1 #share:hover{
+color: blue;
+}
+.panel1 #tym i:hover{
+    color: red;
+}
+/* CSS để thay đổi chiều dài và rộng của modal */
+.panel1>article .modal-dialog {
+    max-width: 60%; /* Thiết lập chiều rộng tối đa của modal */
+}
+
+.panel1>article .modal-content {
+    width: 100%; /* Thiết lập chiều rộng của nội dung modal */
+}
+
+.panel1 .carousel-item>img{
+    height: 600px;
+}
+.panel1 .show-item{
+    padding: 5px;
+    margin: 0px;
+    height: 120px;
+}
+.panel1 .show-item>img{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.panel1 aside .footer {
+    margin: 60px 0px;
+}
+
+.panel2 {
+    margin: 10px 0px;
+}
+
+.panel2 div>button {
+    width: 100px;
+    height: 30px;
+    padding: 0px;
+}
+.panel2 p{
+    font-family:  Helvetica , Arial, sans-serif;
+    font-size: 1.3rem;
+    color: black;
+}
+
+
+.panel3 .card {
+    background-color: rgb(248, 248, 248);
+    border: none;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.panel3 .card .card-body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.panel3 .card .card-body>.star {
+    margin: 10px 0px;
+}
+
+.panel3 .card .row {
+    padding-left: 20px;
+}
+
+.panel3 .card .heard {
+    padding: 20px 10px;
+    font-size: 1.8rem;
+    color: red;
+}
+
+.panel3 .SP .card-title {
+    margin: 20px 0px;
+}
+
+/* .panel3 .card img {
+    height: 250px;
+} */
+/* 
+/* Thiết lập ảnh mặc định */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 300px; /* hoặc bất kỳ chiều cao nào bạn muốn */
+    overflow: hidden;
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s; /* Áp dụng hiệu ứng chuyển đổi */
+}
+
+/* Hiển thị ảnh đầu tiên */
+.image-container .default-img{
+    opacity: 1;
+}
+
+/* Hiển thị ảnh đầu tiên */
+.panel3 .card:hover .image-container img::nth-child(1) {
+    opacity: 1;
+    animation: slideshow 2s infinite; /* Áp dụng animation cho ảnh đầu tiên */
+}
+
+/* Chuyển đổi hiển thị của ảnh */
+@keyframes slideshow {
+    0%, 50% {
+        opacity: 1;
+    }
+    55%, 100% {
+        opacity: 0;
+    }
+}
+
+/* Hiển thị ảnh thứ hai */
+.panel3 .card:hover .image-container img:nth-child(2) {
+    opacity: 0;
+    animation: slideshow2 2s infinite; /* Áp dụng animation cho ảnh thứ hai */
+}
+
+/* Chuyển đổi hiển thị của ảnh thứ hai */
+@keyframes slideshow2 {
+    0%, 50% {
+        opacity: 0;
+    }
+    55%, 100% {
+        opacity: 1;
+    }
+}
+
+/* Hiển thị ảnh thứ ba */
+.panel3 .card:hover .image-container img:nth-child(3) {
+    opacity: 0;
+    animation: slideshow2 3s infinite; /* Áp dụng animation cho ảnh thứ hai */
+}
+
+/* Hiển thị ảnh cuối cùng khi hover */
+.panel3 .card:hover .image-container img:last-child {
+    opacity: 0;
+    animation: slideshow2 5s forwards;
+}
+
+/* Đảm bảo ảnh cuối cùng vẫn hiển thị sau khi hover */
+.panel3 .card .image-container img:last-child.show {
+    opacity: 1;
+}
+
+
+.panel3 .card:hover {
+    background-color: white;
+    box-shadow: 0px 5px 8px rgb(203, 203, 203);
+}
+
+.panel4 .title{
+    font-family:  Helvetica , Arial, sans-serif;
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    margin-bottom: 20px;
+}
+.panel4 .body>article>p{
+    font-family:  Helvetica , Arial, sans-serif;
+    color: gray;
+    padding-left: 5px;
+}
+.panel5{
+    margin: 10px 0px;
+    font-family:  Helvetica , Arial, sans-serif;
+}
+.panel5>.title{
+    font-size: 1.3rem;
+    /* font-weight: bold; */
+    margin-bottom: 20px;
+}
+.panel5>.header{
+    background-color: rgb(251, 250, 246);
+    border: 1px solid rgb(236, 228, 212);
+    padding: 20px 0px;
+    margin: 0px 10px;
+}
+.panel5 article>p,.panel5 article>.star{
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(255, 111, 0);
+}
+.panel5 aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.panel5 aside .DG-link{
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid orangered;
+    background-color:  white;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin-right: 20px;
+    float: left;
+}
+.Active{
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    border: 1px solid orangered;
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin-right: 20px;
+    float: left;
+}
+.panel5 .danhgia{
+margin-top: 50px;
+}
+.panel5 .cmt{
+    margin: 20px 0px;
+}
+.panel5 .cmt>.avatar{
+   padding-left: 60px;
+}
+.panel5 .cmt>.nd .content{
+    margin: 0px;
+    padding: 0px;
+}
+.panel5 .cmt>.nd .ndcmt{
+    margin: 15px 0px;
+    padding:0px;
+}
+.panel5 .nd>.GDAnh{
+    margin-bottom: 20px;
+}
+.panel5 .nd>.GDAnh .GDAnhItems{
+    display: flex;
+    float: left;
+    margin-right: 10px;
+}
+.panel5 .nd > .GDAnh .GDAnhItems:last-child {
+    float: none;
+    margin-right: 10px;
+}
+.panel5 .cmt>.nd>.phanhoi{
+    padding: 10px;
+    background-color: rgb(247, 246, 246);
+}
+.panel5 .cmt>.nd>.phanhoi p{
+    margin: 0px;
+    padding: 2px 0px;
+}
+
+.panel3 .slider-container {
+    width: 100%;
+    overflow: hidden;
+    cursor: grab;
+  }
+  
+  
+  
+  .panel3 .slider {
+    display: flex;
+    user-select: none; /* Prevent text selection */
+    overflow-x: hidden;
+  }
+  
+  .panel3 .cardMoi {
+    min-width: 300px;
+    margin: 10px;
+    /* padding: 20px; */
+    transition: transform 0.3s ease; /* Smooth transition for the cards */
+
+  }

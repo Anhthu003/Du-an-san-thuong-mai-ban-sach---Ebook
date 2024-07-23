@@ -1,0 +1,100 @@
+@charset "UTF-8";
+.card{
+    border: none;
+    width: 100%;
+}
+.img-fluid {
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.4);
+}
+.card-body{
+    margin-top: -16px;
+}
+.card-title{
+    font-size: 17px;
+    font-weight: bold;
+}
+.card-title:hover{
+    color:green;
+}
+.card-text{
+    font-size: 12px;
+    text-align: justify;
+}
+.tacGia{
+    font-size: 13px;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.xemThem{
+    text-align: right;
+}
+.xemThem:hover{
+    color:green;
+}
+.titlePage1{
+    font-weight: bold;
+}
+
+.book-coverPage1 {
+    perspective: 1000px; 
+}
+
+.book-coverPage1 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease; 
+}
+
+.book-coverPage1:hover img {
+    transform: rotateY(-10deg);
+}
+
+.book-coverPage2 {
+    perspective: 1000px; 
+    margin-left: 18%;
+}
+
+.book-coverPage2 img {
+    max-width: 190px;
+    height: auto;
+    text-align: center;
+}
+.card-bd2{
+    margin-top: 1%;
+}
+.card-bd2 .card-title{
+    text-align: center;
+}
+
+
+
+.card-bd3{
+margin: 0;
+}
+.card-bd3 .card-title{
+    text-align: center;
+   font-size:17px;
+    }
+    
+.prev1{
+    margin-top: -4%;
+    margin-left: -7%;
+    color: green;
+}
+.next1{
+    margin-top: -4%;
+    margin-right: -7%;
+    color: green;
+}
+.cardXepHang{
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+   
+}
+.cardXepHang .card-title{
+    color: green;
+}
+table tr:hover{
+    box-shadow: 0 0 3px green;
+}

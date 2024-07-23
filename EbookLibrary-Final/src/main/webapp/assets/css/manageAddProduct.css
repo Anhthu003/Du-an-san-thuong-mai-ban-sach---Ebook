@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* breadcrumb */
+.breadcrumb-item a {
+    color: rgba(33, 37, 41, 0.75);
+    text-decoration: none;
+}
+.container-them-sanpham {
+    background-color: whitesmoke;
+}
+
+
+
+/* TITLE */
+.title-manage-products {
+    padding-top: 20px;
+    margin-left: 2%;
+    margin-bottom: 30px;
+}
+
+
+/* CONTAINER TABLE */
+.container-info-sanpham {
+    padding: 25px 15px 25px 15px;
+    background-color: white;
+}
+.container-info-sanpham .info {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+/* CONTAINER TABLE */
+.container-info-sanpham .info input {
+    font-size: 15px;
+}
+.form-info-sanpham {
+    margin: 0px;
+}
+.title {
+    padding-bottom: 5px;
+    margin-left: 25px;
+    border-bottom: 1px solid #dee2e6;
+}
+.info {
+    padding: 0 20px;
+    margin: 0 0 20px 0;
+}
+.info span {
+    font-size: 15px;
+}
+
+
+/* Ảnh */
+.container-images {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #dee2e6;
+    display: flex;
+    justify-content: center; /* Canh giữa theo chiều ngang */
+    align-items: center; 
+}
+.show-img-div{
+    display: flex;
+}
+.show-img-div .image {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px; /* Để tạo một khoảng cách giữa hình ảnh và nút x */
+}
+.show-img-div .image img {
+    height: 150px;
+    width: auto;  /* Đảm bảo hình ảnh lấp đầy container */
+    display: block; /* Hiển thị hình ảnh như một block để có thể căn chỉnh ký tự "x" */
+    box-shadow: 0 0 6px #dee2e6;
+    padding: 10px 10px;
+}
+.show-img-div .image span {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(255, 255, 255, 0.7); /* Tạo một nền cho nút x */
+    padding: 0px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Hiệu ứng màu nền khi di chuột qua */
+}
+.show-img-div .image span:hover {
+    background-color: #dee2e6; /* Tăng độ mờ của nút x khi di chuột qua */
+}
+
+
+
+/* CSS INPUT FILE  */
+#file-upload[type = "file"]{
+    display: none;
+}
+.container-file-upload{
+    border: 2px dotted #dee2e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+/* Tùy chỉnh giao diện của nút tùy chọn tập tin */
+.custom-file-upload {
+    /* background-color: #4CAF50; */
+    /* color: white; */
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+/* Khi hover vào nút tùy chọn tập tin */
+.custom-file-upload:hover {
+    background-color: #e3e6de;
+}
+.custom-file-upload i {
+    margin-right: 5px;
+}
+
+
+
+
+/* Giá sản phẩm */
+.container-price-sanpham {
+    padding: 25px 15px 25px 15px;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 15px;
+}
+.container-price-sanpham .info {
+    margin-top: 20px;
+}
+.container-price-sanpham .info input {
+    font-size: 15px;
+}
+
+
+/* Loại sản phẩm */
+.loai-sanpham {
+    display: flex;
+    justify-content: space-around;
+}
+#loai-sanpham {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+
+/* button thêm loại */
+.loai-sanpham .button-them {
+    /* width: 120px; */
+}
+.loai-sanpham .button-them button {
+    font-size: 15px;
+}
+
+/* BUTTON */
+.container-button {
+    border-top: 1px solid #dee2e6;
+    padding: 25px 15px 25px 15px;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+}
+.container-button>button {
+    margin-left: 10px;
+    font-size: 15px;
+}
+/* .container-button a {
+    color: white;
+    text-decoration: none;
+} */

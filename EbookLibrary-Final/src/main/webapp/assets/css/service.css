@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/* Header */
+.container-header {
+    width: 100%;
+    height: 350px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    /* background-color: rgb(7, 59, 7); */
+    background-image: linear-gradient(160deg, rgb(175, 226, 175), rgb(18, 105, 18));
+}
+
+.name-content {
+    width: 50%;
+    margin: auto;
+}
+
+/* introduce-content */
+.introduce-content {
+    margin-top: 50px;
+    color: white;
+}
+
+.introduce-content h1 {
+    padding: 0 160px;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.introduce-content h6 {
+    padding: 0 140px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 892px;
+    line-height: 24px;
+
+    /* font-weight: normal; */
+    font-size: 18px;
+}
+
+.introduce-content p {
+    padding: 0 160px;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 932px;
+}
+
+/* button  */
+.btn-introduce-content {
+    height: 50px;
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.introduce-content .buy {
+    padding: 10px 20px;
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 48%;
+}
+
+.introduce-content .show {
+    padding: 10px 20px;
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgba(240, 248, 255, 0.048);
+    color: white;
+    width: 48%;
+}
+
+.introduce-content .buy:hover {
+    cursor: pointer;
+    box-shadow: rgb(88, 189, 192) 0 0px 15px;
+}
+
+.introduce-content .show:hover {
+    cursor: pointer;
+    box-shadow: rgb(88, 189, 192) 0 0px 15px;
+}
+
+/*service */
+.service-title {
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+
+.container-service {
+    display: flex;
+    margin: 0 0 50px 0;
+    justify-content: space-between;
+}
+
+.service {
+    border: solid 1px rgb(175, 171, 171);
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.service:hover {
+    cursor: pointer;
+}
+
+.sub-title-1 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    background-image: linear-gradient(200deg, rgb(113, 184, 113), rgb(18, 105, 18));
+    padding: 10px 15px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.sub-title-2 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    background-image: linear-gradient(200deg, rgb(113, 184, 113), rgb(18, 105, 18));
+    padding: 10px 15px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.sub-title-3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    background-image: linear-gradient(200deg, rgb(113, 184, 113), rgb(18, 105, 18));
+    padding: 10px 15px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.content {
+    padding: 0px 10px;
+    font-size: 15px;
+}
+
+.content hr {
+    margin: 0 0;
+}
+
+.content .button {
+    display: flex;
+    justify-content: end;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.content .button button {
+    display: flex;
+    justify-content: end;
+    padding: 5px 5px;
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: rgba(249, 247, 247, 0);
+    color: green;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.content .button button:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.sub-content {
+    padding: 8px 0;
+}
+
+.sub-content h6 {
+    color: gray;
+} 
+
+.sub-content p {
+    margin: 10px 0;
+    color: rgb(40, 40, 40);
+}

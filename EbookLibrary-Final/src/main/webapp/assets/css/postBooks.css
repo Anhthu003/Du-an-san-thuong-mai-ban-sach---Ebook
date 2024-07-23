@@ -1,0 +1,78 @@
+@charset "UTF-8";
+.row{
+    width: 100%;
+}
+main>nav {
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+header {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 119px;
+    width: 100%;
+    height: 60px;
+  }
+  .navbar img{
+position: absolute;
+top: -5px
+  }
+main>nav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+main>nav a img {
+    margin-bottom: 20px;
+}
+
+main>nav .text-nav:hover {
+    border: 1px solid rgb(98, 216, 98);
+    border-radius: 5px;
+    background-color: rgb(98, 216, 98);
+    color: white;
+}
+.formDieuKhien{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.btn{
+    width: 80px;
+}
+.tbl1{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.page-link{
+    margin-left: 420px;
+    background-color: rgb(23, 179, 127);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.page-link:hover{
+    color: aquamarine;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+.chuyenTrang{
+margin-left: 150px;
+}
